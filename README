@@ -1,0 +1,30 @@
+twifrf.pl
+===================
+
+command line tool for sync friendfeed group with twitter account
+
+INSTALLATION
+
+    #init db
+    twifrf.pl -init -twi -frf -f storage.xml
+
+    # do sync
+    twifrf.pl -twi -frf -f storage.xml
+
+     #publish new messages only from friendfeed
+     twifrf.pl -frf -f storage.xml
+
+DEPENDENCIES
+
+For use is necessary following software:
+
+    * Flow
+    * XML::Flow
+    * Net::Twitter
+
+Project site: https://github.com/zag/lveeboteg
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself..
+
+Copyright 2010-2011 by Zahatski Aliaksandr
